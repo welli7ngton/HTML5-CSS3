@@ -63,7 +63,7 @@
         </p>
         <p>
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="exemplo@org.com">
+            <input type="email" name="email" id="email" placeholder="exemplo@org.com" required>
         </p>
         <p>
             <label for="files">Foto:</label>
@@ -72,6 +72,35 @@
         <p>
             <label for="numero">Número:</label>
             <input type="number" name="numero" id="numero" placeholder="Digite um número" min="10" max="99" step="10">
+        </p>
+        <p>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+        </p>
+        <p>
+            <label for="range">Range:</label>
+            <input type="range" name="range" id="range" min="0" max="10" step="2">
+        </p>
+        <p>
+            <label for="url">URL:</label>
+            <input type="url" name="url" id="url">
+        </p>
+        <p>
+            <label for="search">Busca:</label>
+            <input type="search" name="search" id="search">
+        </p>
+        <p>
+            <label for="select">Selecione uma opção</label>
+            <select name="select" id="select">
+                <option value="valor 1">valor 1</option>
+                <option value="valor 2" selected>valor 2</option>
+                <option value="valor 3">valor 3</option>
+                <option value="valor 4">valor 4</option>
+            </select>
+        </p>
+        <p>
+            <label for="texarea">Area de texto:</label>
+            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
         </p>
         <p>
             <button type="submit">Enviar</button>
