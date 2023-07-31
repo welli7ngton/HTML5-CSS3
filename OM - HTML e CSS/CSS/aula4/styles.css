@@ -1,7 +1,18 @@
-p:not(.meio) {
+/* p:not(.meio) {
     color: red;
 }
 
 input:not(:checked)+ p {
+    background-color: yellow;
+} */
+
+
+ul li:nth-child(odd) {
+    background-color: rebeccapurple;
+}
+ul li:nth-child(even) {
+    background-color: turquoise;
+}
+ul li:nth-child(3n+5) {
     background-color: yellow;
 }
