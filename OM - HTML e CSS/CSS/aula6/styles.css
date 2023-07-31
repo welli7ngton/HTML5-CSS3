@@ -1,0 +1,34 @@
+/* 
+ID|Classes, Atributos, Pseudo-classes|Elementos e Pseudo-elementos
+*/
+/* 
+Regra de aplicação de estilos:
+!important > style > especificidade
+*/
+/* E = 1|0|0 */
+#p {
+    background-color: red;
+}
+/* E = 0|1|0 */
+.p{
+    background-color: yellow;
+}
+/* E = 1|1|0 */
+#p.p{
+    background-color: blue;
+    color: white;
+}
+/* E = 1|1|1 */
+p#p.p::selection{
+    background-color: rebeccapurple;
+}
+/* E = 2|1|1 */
+
+#b p#p.p {
+    background-color: darkgreen !important;
+}
+/* E = 2|2|1 */
+#b.b p#p.p {
+    background-color: darkkhaki;
+    color: black;
+}
