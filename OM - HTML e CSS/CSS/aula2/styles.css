@@ -2,8 +2,8 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-size: 50px;
-    margin-left: 30px;
+    /* font-size: 50px;
+    margin-left: 30px; */
 }
 div {
     color: initial;
@@ -32,6 +32,28 @@ body div section p, h1 {
     color: initial;
 } */
 
-.pai > .filha > span > .filha {
+/* .pai > .filha > span > .filha {
     color: red;
+} */
+
+/* .pai h1+p {
+    color: red;
+} */
+/* .pai p+h1 {
+    color: blue;
+} */
+/* .pai h1~p {
+    color: blue;
+} */
+
+/* .pai .um+.dois {
+    color: red;
+} */
+[atributo$="c"] {
+    color: red;
+}
+
+[checked] {
+    width: 60px;
+    height: 60px;
 }
