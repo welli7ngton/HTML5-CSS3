@@ -1,0 +1,32 @@
+/* ul li::before {
+    content: " - ";
+    display: block;
+    background-color: red;
+} */
+
+p::first-letter {
+    font-size: 50px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+p::first-line {
+    background-color: blue;
+    transition: all 3s ease-in-out
+}
+
+p::selection {
+    background-color: yellow;
+    color: red;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+}
+
+.teste::placeholder {
+    color: red;
+    font-size: 30px;
+}
