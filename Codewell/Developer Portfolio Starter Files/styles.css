@@ -1,0 +1,70 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.topo {
+    background-color: black;
+    padding: 35px;
+}
+
+.cabecalho ul li{
+    color: aliceblue;
+    display: inline;
+    justify-content: center;
+    padding: 25px;
+}
+.cabecalho ul .nome{
+    padding: 0px 150px 0px 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+.meio {
+    background-color: black;
+    color: rgb(204, 201, 201);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 115px;
+}
+.meio h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.botao {
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    border-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 250px;
+}
+
+.logos {
+    background-color: black;
+    height: 100px;
+    padding: 50px 0px 0px 90px;
+}
+
+.logos img {
+    margin-left: 28px;
+    margin-right: 50px;
+}
+
+.experiencias {
+    background-color: grey;
+}
+
+.contato {
+    background-color: black;
+    color: white;
+}
+
+.rodape {
+    background-color: grey;
+    color: white;
+
+}
