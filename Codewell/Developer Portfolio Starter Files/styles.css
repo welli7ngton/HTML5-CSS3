@@ -1,6 +1,7 @@
 * {
-    margin: 0%;
+    /* background-color: black; */
     padding: 0%;
+    margin: 0%;
 }
 
 .topo {
@@ -42,7 +43,9 @@
     font-family: 'Times New Roman', Times, serif;
     margin-left: 250px;
 }
-
+.botao:hover {
+    background-color: rgb(167, 167, 48);
+}
 .logos {
     background-color: black;
     height: 100px;
@@ -53,9 +56,19 @@
     margin-left: 28px;
     margin-right: 50px;
 }
-
+.projetos {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.projetos h1 {
+    font-weight: normal;
+}
 .experiencias {
     background-color: grey;
+    color: white;
 }
 
 .contato {
