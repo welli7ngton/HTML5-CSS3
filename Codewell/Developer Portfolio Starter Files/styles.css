@@ -1,83 +1,116 @@
 * {
-    /* background-color: black; */
-    padding: 0%;
-    margin: 0%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-.topo {
-    background-color: black;
-    padding: 35px;
-}
-
-.cabecalho ul li{
-    color: aliceblue;
-    display: inline;
-    justify-content: center;
-    padding: 25px;
-}
-.cabecalho ul .nome{
-    padding: 0px 150px 0px 80px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    
-}
-.meio {
-    background-color: black;
-    color: rgb(204, 201, 201);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    padding-left: 115px;
-}
-.meio h1 {
-    color: white;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
-    padding-bottom: 20px;
-}
-.botao {
-    width: 100px;
-    height: 50px;
-    background-color: yellow;
-    border-style: none;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 250px;
-}
-.botao:hover {
-    background-color: rgb(167, 167, 48);
-}
-.logos {
-    background-color: black;
+.placeholder-item {
     height: 100px;
-    padding: 50px 0px 0px 90px;
 }
 
-.logos img {
-    margin-left: 28px;
-    margin-right: 50px;
-}
-.projetos {
+.menu {
+    width: 100%;
+    height: 100px;
     background-color: black;
+    position: fixed;
+    display: flex;
+}
+
+.menu .name {
+    width: 30%;
+    height: inherit;
     color: white;
     display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;
-}
-.projetos h1 {
+    justify-content: center;
+    padding-top: 35px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
 }
-.experiencias {
-    background-color: grey;
+
+.menu-content {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    height: inherit;
+}
+
+.menu-content a {
+    padding-left: 30px;
+    float: left;
+    text-decoration: none;
+    color: rgb(126, 124, 124);
+    font-family: sans-serif;
+}
+
+.menu-content a:hover {
     color: white;
 }
 
-.contato {
+.menu .menu-button {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+
+}
+
+.menu .menu-button .button-style {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-style: none;
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.menu .menu-button .button-style:hover{
+    background-color: rgb(204, 204, 82);
+}
+
+.menu .menu-button .button-style:active{
+    background-color: rgb(143, 143, 51);
+}
+
+.description {
+    display: block;
+    width: 100%;
+    height: 240px;
     background-color: black;
     color: white;
 }
 
-.rodape {
-    background-color: grey;
-    color: white;
+.description h1{
+    padding-top: 20px;
+    font-size: 60px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 45px;
+    width: 620px;
+}
 
+.description p{
+    padding-top: 20px;
+    margin-left: 45px;
+    width: 620px;
+}
+
+.logos {
+    height: 90px;
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+
+}
+
+.logos .style-logos {
+    width: 790px;
+    padding-top: 40px;
+    /* margin-left: -10px; */
+}
+
+.logos .style-logos img {
+    padding-left: 16px;
 }
