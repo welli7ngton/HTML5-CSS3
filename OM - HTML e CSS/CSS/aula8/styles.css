@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    padding: 15px;
+}
+
+.grid::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.grid .col {
+    box-sizing: border-box;
+    width: 33.33%;
+    height: 200px;
+    float: left;
+    padding: 15px;
+}
+.grid .col-content{
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+    color: white;
+
+}
+/* p {
+    clear: both;
+} */
