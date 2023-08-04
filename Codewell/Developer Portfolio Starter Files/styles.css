@@ -1,116 +1,103 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-size: 62.5%;
 }
 
-.placeholder-item {
-    height: 100px;
+body {
+    margin: 0 10vw 0 10vw;
+    background-color: #807d7d;
 }
-
 .menu {
     width: 100%;
     height: 100px;
+    max-width: 1600px;
     background-color: black;
-    position: fixed;
+    color: white;
     display: flex;
 }
 
 .menu .name {
-    width: 30%;
-    height: inherit;
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding-top: 35px;
-    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
+    font-size: 1.8rem;
+    margin: 0;
+    padding:35px 0;
+    width: 30%;
 }
 
-.menu-content {
+.menu .menu-content {
     width: 40%;
     display: flex;
+    margin: 0;
+    padding:35px 0;
     justify-content: center;
-    padding-top: 35px;
-    height: inherit;
+
 }
 
-.menu-content a {
-    padding-left: 30px;
-    float: left;
-    text-decoration: none;
-    color: rgb(126, 124, 124);
+.menu .menu-content a{
+    padding: 0 10px 0;
+    color: rgb(121, 118, 118);
     font-family: sans-serif;
+    font-size: 2.9rem;
+    text-decoration: none;
 }
-
-.menu-content a:hover {
-    color: white;
+.menu .menu-content a:hover{
+    color: #fff;
 }
-
 .menu .menu-button {
+    padding: 20px 0 0 0;
     width: 30%;
     display: flex;
-    justify-content: center;
-    padding-top: 20px;
-
-
+    justify-content: right;
 }
 
-.menu .menu-button .button-style {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    border-style: none;
-    width: 200px;
+.menu .menu-button .button-style{
     height: 50px;
-    background-color: yellow;
+    width: 150px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(253, 253, 2);
 }
 
 .menu .menu-button .button-style:hover{
-    background-color: rgb(204, 204, 82);
+    background-color: rgb(211, 211, 16);
 }
 
 .menu .menu-button .button-style:active{
-    background-color: rgb(143, 143, 51);
+    background-color: rgb(168, 168, 25);
 }
 
 .description {
-    display: block;
-    width: 100%;
-    height: 240px;
-    background-color: black;
-    color: white;
+    padding-top: 20px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    max-width: 770px;
+
 }
 
-.description h1{
-    padding-top: 20px;
-    font-size: 60px;
-    font-weight: normal;
+.description h1 {
+    font-size: 7rem;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 45px;
-    width: 620px;
+    font-weight: normal;
 }
 
-.description p{
+.description p {
     padding-top: 20px;
-    margin-left: 45px;
-    width: 620px;
+    font-size: 2.0rem;
 }
 
 .logos {
-    height: 90px;
+    width: 100%;
+    height: 100px;
+    max-width: 1600px;
+    padding-top: 20px;
+    background-color: #000;
     display: flex;
-    background-color: black;
-    justify-content: space-evenly;
-
+    justify-content: space-between;
 }
 
-.logos .style-logos {
-    width: 790px;
-    padding-top: 40px;
-    /* margin-left: -10px; */
-}
 
-.logos .style-logos img {
-    padding-left: 16px;
-}
