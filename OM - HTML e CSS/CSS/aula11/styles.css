@@ -6,16 +6,56 @@
 
 .flex-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* atalho para flex direction e flex wrap*/
+    flex-flow: row nowrap;
     background-color: yellow;
-    height: 500px;
+    height: 600px;
 }
 
 .flex-item {
     color: #fff;
+    /* height: 200px; */
     width: 100%;
     background-color: red;
-    margin: 10px;
+    /* atalho para flex */
+    /* param 1: flex grow */
+    /* param 2: flex srhink */
+    /* param 3: flex basis */
+    flex: 1 1 300px;
+}
+
+/* .flex-item:nth-child(2) {
+    background-color: rebeccapurple;
+    flex: 10 1 300px;
+} */
+
+/* .flex-item:nth-child(3) {
+    align-self: flex-end;
+}
+
+.flex-item:nth-child(4) {
+    align-self: center;
+}
+
+.flex-item:nth-child(2) {
+    align-self: stretch;
+} */
+
+/* alterando a ordem dos elementos  */
+.flex-item:nth-child(1) {
+    order: -1;
+}
+
+.flex-item:nth-child(2) {
+    order: -2;
+}
+
+.flex-item:nth-child(3) {
+    order: -4;
+}
+
+.flex-item:nth-child(4) {
+    order: -3;
 }
