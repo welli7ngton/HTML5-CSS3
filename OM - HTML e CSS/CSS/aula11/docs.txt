@@ -1,3 +1,5 @@
 justify-content: Essa propriedade controla a alinhamento dos itens ao longo do eixo principal, que é definido pela propriedade flex-direction. Se flex-direction for definida como row (padrão), o eixo principal será horizontal (da esquerda para a direita). Se for definida como column, o eixo principal será vertical (de cima para baixo). As opções para justify-content incluem flex-start, flex-end, center, space-between, space-around e space-evenly, que controlam onde os itens são alinhados ao longo desse eixo.
 
 align-items: Essa propriedade controla o alinhamento dos itens ao longo do eixo perpendicular ao eixo principal. Se flex-direction for row, o eixo perpendicular será vertical (de cima para baixo). Se flex-direction for column, o eixo perpendicular será horizontal (da esquerda para a direita). As opções para align-items incluem flex-start, flex-end, center, baseline e stretch, que controlam como os itens são alinhados ao longo desse eixo
+
+CSS tricks flex-box complete guide: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
