@@ -14,7 +14,8 @@ body {
     display: grid;
     margin: 0 auto;
     /* grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); */
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: [um]1fr [dois]1fr [tres]1fr [quatro]1fr;
+    grid-template-rows: [um]1fr [dois]1fr [tres]1fr [quatro]1fr;
     /* grid-template-rows: 2fr 1fr 3fr; */
     gap: 20px
 }
@@ -29,8 +30,9 @@ body {
     /* grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 3; */
-    grid-row: span 1;
-    grid-column: span 2;
+    /* grid-column: um / quatro;
+    grid-row: um / tres; */
+    grid-area: um / um / quatro / tres;
 }
 
 @media (max-width: 768px) {
