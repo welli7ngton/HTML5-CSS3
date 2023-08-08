@@ -162,8 +162,67 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
 }
+
 .awards div p{
     padding: 20px 0;
     font-size: 2.2rem;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.chats {
+    padding: 60px 0;
+    width: 45%;
+    height: auto;
+    background-color: #000;
+} 
+
+.chats h2{
+    padding: 5px 0;
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+.chats p{
+    padding: 15px 0;
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-button {
+    border: none;
+    width: 200px;
+    height: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.8rem;
+    background-color: #ffee00;
+}
+
+
+.bottom-button:hover{
+    background-color: #d8cb0e;
+}
+
+.bottom-button:active{
+    background-color: #beb313;
+}
+
+footer {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .name-footer h3{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+footer .social a{
+    padding: 0 7px;
+}
+
+footer .social img:hover{
+    border-radius: 50%;
+    background-color: rgba(255, 252, 252, 0.589);
 }
