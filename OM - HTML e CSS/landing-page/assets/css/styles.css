@@ -2,7 +2,7 @@
     --primary-color: #0A1128;
     --white-color: #FFF;
     --light-gray-color: #EEE;
-    --secondary-color: crismon;
+    --secondary-color: crimson;
     --gap: 3rem;
 }
 
@@ -58,6 +58,7 @@ html {
 
  a {
    text-decoration: none;
+   color: inherit;
  }
 
  .main-bg {
@@ -357,4 +358,13 @@ body .form-group textarea {
    border: 0.5rem solid var(--light-gray-color);
    background: var(--light-gray-color);
    color: var(--primary-color);
+}
+
+.footer p{
+   text-align: center;
+   font-size: 1.6rem;
+}
+
+.heart {
+   color: var(--secondary-color);
 }
