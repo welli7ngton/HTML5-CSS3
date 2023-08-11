@@ -9,6 +9,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
 }
 
 html {
@@ -287,4 +288,73 @@ table td, table th{
 
 tfoot td, table th {
    background-color: var(--light-gray-color);
+}
+
+.contact {
+   padding-top: 8rem;
+}
+
+.contact-form {
+   grid-column: span 2;
+}
+
+.contact-form .form-grid {
+   border: none;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: var(--gap);
+}
+
+.form-grid legend {
+   font-style: italic;
+   font-size: 1.6rem;
+   margin-bottom: 2rem;
+}
+
+.form-group {
+   flex: 1 1 320px;
+}
+
+.form-group label{
+   display: block;
+   margin-bottom: 1rem;
+}
+
+.form-group input, .form-group textarea{
+   border: none;
+   background-color: var(--white-color);
+   height: 5rem;
+   width: 100%;
+   font-size: 2rem;
+   padding: 0.5rem;
+}
+
+
+
+body .full-width {
+   width: 100%;
+   flex: 1 1 100%;
+}
+
+body .form-group textarea {
+   height: 20rem;
+}
+
+.form-group button {
+   width: 25%;
+   height: 5rem;
+   border: 0.5rem solid var(--white-color);
+   background: none;
+   color: var(--light-gray-color);
+   font-family: 'Open Sans', sans-serif;
+   font-size: 2rem;
+   cursor: pointer;
+   transition: all 300ms ease-in-out;
+}
+
+.form-group button:hover {
+   border: 0.5rem solid var(--light-gray-color);
+   background: var(--light-gray-color);
+   color: var(--primary-color);
 }
