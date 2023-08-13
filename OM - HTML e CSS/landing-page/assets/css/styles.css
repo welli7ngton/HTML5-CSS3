@@ -369,6 +369,10 @@ body .form-group textarea {
    color: var(--secondary-color);
 }
 
+.close-menu {
+   display: none;
+}
+
 @media (max-width: 800px) {
    .intro-content, .grid {
       grid-template-columns: 1fr;
@@ -386,5 +390,58 @@ body .form-group textarea {
 
    .grid-one-content {
       display: block;
+   }
+
+   .menu {
+      bottom: 0;
+      text-align: center;
+   }
+
+   .menu-content, .menu-content ul {
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   .menu-content {
+      height: 100vh;
+   }
+
+   .menu {
+      display: none;
+   }
+
+   .close-menu {
+      position: fixed;
+   }
+
+   .close-menu-label::after{
+      content: "≡";
+      position: fixed;
+      z-index: 2000;
+      top: 1rem;
+      right: 1rem;
+      background-color: var(--primary-color);
+      color: var(--white-color);
+      font-size: 4rem;
+      line-height: 4rem;
+      width: 4rem;
+      text-align: center;
+      cursor: pointer;
+   }
+
+   .close-menu:checked~.menu {
+      display: block;
+   }
+
+   .close-menu:checked~.close-menu-label::after{
+      content: "X";
+   }
+
+   .menu-spacing {
+      display: none;
+   }
+
+   .intro-text-content{
+      padding-top: 4rem;
    }
 }
