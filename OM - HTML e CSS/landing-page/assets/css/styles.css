@@ -444,6 +444,10 @@ body .form-group textarea {
       cursor: pointer;
    }
 
+   .contact .main-content{
+      display: block;
+   }
+
    .close-menu:checked~.menu {
       display: block;
    }
